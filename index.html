@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Ali Kore</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
     </nav>
 
     <nav id="hamburger-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Ali Kore</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -40,15 +40,12 @@
     </nav>
 
     <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="John Doe profile picture">
-        </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">John Doe</h1>
+            <h1 class="title">Ali Kore</h1>
             <p class="section__text__p2">Frontend Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Ali-cv.pdf')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -56,45 +53,40 @@
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png"
-                alt="My linkedin profile"
-                class="icon" 
-                onclick="location.href='https://www.linkedin.com/'">
-
-                <img src="./assets/github.png"
-                alt="My Github profile"
-                class="icon" 
-                onclick="location.href='https://github.com/'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" 
+                onclick="location.href='https://github.com/Ali0k/'">
             </div>
         </div>
+        <!-- Kept the arrow for navigation -->
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
+        onclick="location.href='./#about'" />
     </section>
+    
     <section id="about">
         <p class="section__text__p1">Get to Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="profile picture"
-                class="about-pic"
-                />
-            </div>
             <div class="about-details-container">
                 <div class="details-container">
                     <img src="./assets/experience.png" alt="Experience icon"
                     class="icon"
                     />
                     <h3>Experience</h3>
-                    <p>2+ years <br />Frontend Development</p>
+                    <p>1 year <br />Frontend Development</p>
                 </div>
                 <div class="details-container">
                     <img src="./assets/education.png" alt="Education icon"
                     class="icon"
                     />
                     <h3>Education</h3>
-                    <p>B.Sc. bachelors <br />M.sc masters</p>
+                    <p>Makers Academy</p>
                 </div>
             </div>
             <div class="text-container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus maxime perspiciatis porro odio ea ex eaque beatae, mollitia dolorum corporis in sed tenetur quas consectetur cupiditate quidem, saepe culpa maiores!</p>
+                <p>Immersive coding bootcamp focused on full stack development:
+                    Pair programming and Agile development.
+                    Test-Driven Development (TDD) and Object-Oriented Programming (OOP).
+                    </p>
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" 
@@ -133,7 +125,7 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>SASS</h3> <!-- Fixed typo "SAAS" -->
+                                <h3>React</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -147,7 +139,7 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Material UI</h3>
+                                <h3>Bootstrap</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -197,81 +189,61 @@
             <div class="about-containers">
             <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/project-1.png" alt="Project 1" 
+                    <img src="assets/newbook.png" alt="Project 1" 
                     class="project-img"
                     />
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">Air-Bnb Project</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.
-                    href='https://github.com/'"
+                    href='https://github.com/Sunny-x3/makersbnb-team-water'"
                     >
                         GitHub
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.
-                    href='https://github.com/'"
-                    >
-                        Live Demo
                     </button>
                 </div>
             </div><div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/project-2.png" alt="Project 2" 
+                    <img src="assets/acebook.png" alt="Project 2" 
                     class="project-img"
                     />
                 </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">Acebook Project</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.
-                    href='https://github.com/'"
+                    href='https://github.com/RussellColes/acebook-teamM'"
                     >
                         GitHub
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.
-                    href='https://github.com/'"
-                    >
-                        Live Demo
                     </button>
                 </div>
             </div><div class="details-container color-container">
                 <div class="article-container">
-                    <img src="assets/project-3.png" alt="Project 3" 
+                    <img src="assets/skynet.png" alt="Project 3" 
                     class="project-img"
                     />
                 </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <h2 class="experience-sub-title project-title">Skynet Project</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.
-                    href='https://github.com/'"
+                    href='https://github.com/K-B13/Skynet'"
                     >
                         GitHub
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.
-                    href='https://github.com/'"
-                    >
-                        Live Demo
                     </button>
                 </div>
             </div>
         </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
-            <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon" class="icon
                 contact-icon"
                 />
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                <p><a href="mailto:alikore4828@gmail.com">alikore4828@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon
-                contact-icon"
-                />
-                <p><a href=https://www.linkedin.com">LinkedIn</a></p>
             </div>
         </div>
     </section>
@@ -286,7 +258,7 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2025 John Doe. All Rights Reserved.</p>
+        <p>Copyright &#169; 2025 Ali Kore. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
